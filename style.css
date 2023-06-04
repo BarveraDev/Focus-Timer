@@ -98,4 +98,7 @@ header {
     margin-top: 2rem;
     margin: 2rem 0 6rem 18rem;
   }
+  .buttons {
+    gap: 1rem;
+  }
 }
