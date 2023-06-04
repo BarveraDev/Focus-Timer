@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  font-size: 62.5%;
+  --fstyle-timer: "Roboto", sans-serif;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+
+.timer-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 19.2rem;
+}
+
+.page {
+  display: flex;
+  align-items: center;
+}
+
+.timer {
+  display: flex;
+  font-size: 15rem;
+  color: #323238;
+  font-family: var(--fstyle-timer);
+}
+
+.buttons {
+  display: flex;
+  gap: 5rem;
+}
+
+.buttons img,
+.cards svg {
+  cursor: pointer;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 3rem;
+}
+
+.hide {
+  display: none;
+}
+
+header {
+  display: flex;
+  justify-content: end;
+  margin-top: -15rem;
+}
+
+.cards path:first-child {
+  transition: 0.5s ease-in-out;
+}
+
+.cards path:last-child {
+  transition: 0.5s ease-in-out;
+}
+
+.click path:first-child {
+  fill: #02799d;
+  transition: 0.5s ease-in-out;
+}
+
+.click path:last-child {
+  fill: #ffffff;
+  transition: 0.5s ease-in-out;
+}
+
+.sun,
+.moon {
+  cursor: pointer;
+}
+
+.light {
+  background: #fff;
+}
+
+.light h3 {
+  color: #000;
+}
+
+.dark {
+  background: #000;
+}
+
+.dark h3 {
+  color: #fff;
+}
+
+.buttons .light {
+  fill: #fff;
+}
