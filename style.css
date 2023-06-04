@@ -84,7 +84,7 @@ header {
   cursor: pointer;
 }
 
-@media (max-width: 551px) {
+@media (max-width: 769px) {
   .page {
     display: flex;
     flex-direction: column;
