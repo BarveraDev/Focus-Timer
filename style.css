@@ -84,22 +84,18 @@ header {
   cursor: pointer;
 }
 
-.light {
-  background: #fff;
-}
-
-.light h3 {
-  color: #000;
-}
-
-.dark {
-  background: #000;
-}
-
-.dark h3 {
-  color: #fff;
-}
-
-.buttons .light {
-  fill: #fff;
+@media (max-width: 551px) {
+  .page {
+    display: flex;
+    flex-direction: column;
+  }
+  .timer {
+    margin-left: 19rem;
+  }
+  .buttons {
+    margin-left: 18rem;
+    margin-bottom: 6rem;
+    margin-top: 2rem;
+    margin: 2rem 0 6rem 18rem;
+  }
 }
